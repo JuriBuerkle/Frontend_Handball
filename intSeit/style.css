@@ -1,0 +1,40 @@
+h1 {
+    position: absolute;
+    top: 5%; /* Располагаем верхний край текста на 50% высоты контейнера */
+    left: 50%; /* Располагаем левый край текста на 50% ширины контейнера */
+    transform: translate(-50%, -50%); /* Смещаем текст на половину его собственной ширины и высоты, чтобы он оказался точно по центру */
+    color: rgb(224, 231, 19); /* Цвет текста */
+    font-family: cursive;
+  
+}
+
+.img-container img { 
+    display: block; /* Убирает лишние отступы под изображением */
+    width: 100%; /* Делает изображение адаптивным */
+    height: 98dvh;
+}
+
+.button-container {
+    position: absolute;
+    top: 20%;
+    left: 5%;;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;;
+    width: 180px;;
+    font: 400 13.3333px Arial;
+    text-align: center;
+    padding: 3px 6px;
+    background-color: rgb(95, 24, 209); /* обычно это серый цвет */ 
+}
+button {
+    width: 100%;
+    height: 40px;
+    background-color: rgb(224, 231, 19); /* Цвет кнопки */
+    color: black; /* Цвет текста на кнопке */
+    border: none; /* Убираем рамку */
+    border-radius: 5px; /* Скругляем углы */
+    cursor: pointer; /* Курсор в виде руки при наведении */
+    font-size: 16px; /* Размер шрифта */
+}
